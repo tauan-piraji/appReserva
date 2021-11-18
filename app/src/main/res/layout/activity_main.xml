@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:weightSum="3"
+         android:padding="5dp">
+
+         <LinearLayout
+             android:id="@+id/linearMesa1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="1"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearMesa2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="2"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearMesa3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="3"/>
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="3"
+          android:padding="5dp">
+
+         <LinearLayout
+             android:id="@+id/linearMesa4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="4"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearMesa5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="5"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="5"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearMesa6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="6"/>
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="3"
+          android:padding="5dp">
+
+         <LinearLayout
+             android:id="@+id/linearMesa7"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="7"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="7"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearMesa8"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="8"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="8"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/linearMesa9"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:background="@color/Blue"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="9"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReservarMesa9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESERVAR"
+                android:tag="9"/>
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2"
+          android:padding="5dp">
+
+         <EditText
+             android:id="@+id/edtNumeroMesa"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:hint="Número da Mesa"
+             android:inputType="number" />
+
+         <Button
+             android:id="@+id/btnLiberarMesa"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_weight="1"
+             android:text="LIBERAR MESA" />
+         
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/btnSalvarOperacao"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:text="SALVAR OPERAÇÃO" />
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:weightSum="2"
+         android:orientation="horizontal">
+
+         <Button
+             android:id="@+id/btnReservarTodasAsMesas"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:text="RESERVAR TODAS AS MESAS" />
+
+         <Button
+             android:id="@+id/btnLiberarTodasMesas"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:text="LIBERAR TODA AS MESAS" />
+
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/btnConfiguracao"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:text="CONFIGURAÇÕES"/>
+
+   </LinearLayout>
+
+</ScrollView>
